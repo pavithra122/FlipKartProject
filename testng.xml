@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="prtName" value="fasttrack watch"/>
+		<parameter name="email" value="8122157882"/>
+
+		<parameter name="password" value="s@ngre@l"/>
+		<parameter name="name" value="pavi"/>
+		<parameter name="mobNo" value="8122157882"/>
+		<parameter name="pincode" value="609110"/>
+		<parameter name="locality" value="sirkali"/>
+		<parameter name="Address" value="11,pidari south street"/>
+		<parameter name="City" value="sirkali"/>
+		<parameter name="state" value="Tamil Nadu"/>
+		<parameter name="EmailID" value="pavii5891@gmail.com"/>
+
+		<classes>
+			<class name="pages.flip.FlipkartMain" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
